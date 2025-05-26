@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>531 Calculator</title>
+        <link rel="stylesheet" href="calculator.css">         
+    </head>
+
+    <body>
+
+        <h1 id="h1Text">Please Enter in Information</h1>
+
+        <form>
+
+            <h1>Input Maxes</h1>
+
+            <label for="deadlift">Deadlift Max</label>
+            <input id="deadlift" type="number" min="0" step="5"><br>
+
+            <label for="shoulderPress">Shoulder Press Max</label>
+            <input id="shoulderPress" type="number" min="0" step="5"><br>
+
+            <label for="squat">Squat Max</label>
+            <input id="squat" type="number" min="0" step="5"><br>
+
+            <label for="bench">Bench Max</label>
+            <input id="bench" type="number" min="0" step="5"><br>
+
+            <button type="button" onclick="calculate()">Calculate Percentages</button><br>
+
+            <button type="buttom" onclick="reset()"" id="button">Reset</button>
+
+
+
+        </form>
+
+        <table>
+
+            <tr id="exercise">
+                <th>Percentages</th>
+                <th>Deadlift</th>
+                <th>Shoulder Press</th>
+                <th>Squat</th>
+                <th>Bench</th>
+            </tr>
+
+            <tr class="weeks">
+                <th colspan="5">Week 1</th>
+            </tr>
+
+            <tr class="numbers">
+                <th>65 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="numbers">
+                <th>75 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="numbers">
+                <th>85 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="weeks">
+                <th colspan="5">Week 2</th>
+            </tr>
+
+            <tr class="numbers">
+                <th>70 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="numbers">
+                <th>80 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="numbers">
+                <th>90 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="weeks">
+                <th colspan="5">Week 3</th>
+            </tr>
+
+            <tr class="numbers">
+                <th>75 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="numbers">
+                <th>85 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="numbers">
+                <th>95 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="weeks">
+                <th colspan="5">Week 4</th>
+            </tr>
+
+            <tr class="numbers">
+                <th>40 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="numbers">
+                <th>50 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="numbers">
+                <th>60 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="percentages">
+                <th colspan="5">Lower 5 x 10</th>
+            </tr>
+
+            <tr class="numbers">
+                <th>40 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="percentages">
+                <th colspan="5">Upper 5 x 10</th>
+            </tr>
+
+            <tr class="numbers">
+                <th>50 %</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+        <script src="index.js"> </script>
+
+    </body>
+
+</html>
